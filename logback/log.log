@@ -1,0 +1,248 @@
+2019-06-18 16:12:33.659 - INFO 15324 [           main] com.bootdo.Monitor1Application           : Starting Monitor1Application on WINDOWS-GBOR4SK with PID 15324 (D:\work\sts-workSpace\precisiontest\Unifieddata\target\classes started by EDZ in D:\work\sts-workSpace\precisiontest\Unifieddata)
+2019-06-18 16:12:33.671 -DEBUG 15324 [           main] com.bootdo.Monitor1Application           : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-06-18 16:12:33.672 - INFO 15324 [           main] com.bootdo.Monitor1Application           : The following profiles are active: dev
+2019-06-18 16:12:33.810 - INFO 15324 [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bab3f1a: startup date [Tue Jun 18 16:12:33 CST 2019]; root of context hierarchy
+2019-06-18 16:12:35.535 - INFO 15324 [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-18 16:12:36.427 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$44a81afe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:36.555 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70f6097b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:36.637 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$634f3822] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.399 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.604 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.616 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca5aab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.626 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.674 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.845 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:37.932 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.442 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.458 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.463 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.467 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userDao' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.475 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'roleDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.476 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'roleDao' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.482 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.484 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleDao' of type [com.sun.proxy.$Proxy83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.491 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'deptDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.493 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'deptDao' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.501 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'projectUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.502 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'projectUserDao' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.508 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'bootdoConfig' of type [com.bootdo.common.config.BootdoConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.509 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.bootdo.system.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.583 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.608 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'redisManager' of type [com.bootdo.common.redis.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.609 -DEBUG 15324 [           main] c.b.c.redis.shiro.RedisCacheManager      : 获取名称为: com.bootdo.system.shiro.UserRealm.authorizationCache 的RedisCache实例
+2019-06-18 16:12:38.635 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionIdCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.643 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'redisSessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.646 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.664 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.694 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:38.722 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-18 16:12:39.216 - INFO 15324 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2019-06-18 16:12:39.240 - INFO 15324 [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8083"]
+2019-06-18 16:12:39.269 - INFO 15324 [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 16:12:39.269 - INFO 15324 [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-06-18 16:12:39.276 - INFO 15324 [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\app\EDZ\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Services\IPT\;D:\work\java\jdk1.8.0_211\bin;D:\work\java\jdk1.8.0_211\jre\bin;D:\dev\apache-maven-3.2.3\bin;D:\dev\nodejs;D:\dev\TortoiseSVN\bin;D:\dev\SVNServer\bin;D:\dev\TortoiseGit\bin;D:\dev\apache-ant-1.9.13\bin;D:\work\zookeeper-3.5.4-beta\bin;D:\work\kafka_2.11-2.2.0\bin;%MYSQL%/bin;C:\Program Files\MySQL\MySQL Server 5.7/bin;D:\dev\Git\cmd;C:\Users\EDZ\AppData\Roaming\npm;D:\dev\Microsoft VS Code\bin;D:\Program Files\Docker Toolbox;D:\Program Files\Docker Toolbox;.]
+2019-06-18 16:12:39.807 - INFO 15324 [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/myapi]  : Initializing Spring embedded WebApplicationContext
+2019-06-18 16:12:39.807 - INFO 15324 [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5997 ms
+2019-06-18 16:12:40.126 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-06-18 16:12:40.136 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-18 16:12:40.136 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-18 16:12:40.137 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-18 16:12:40.137 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-18 16:12:40.137 - INFO 15324 [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2019-06-18 16:12:40.226 -DEBUG 15324 [           main] c.b.c.config.ApplicationContextRegister  : ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bab3f1a: startup date [Tue Jun 18 16:12:33 CST 2019]; root of context hierarchy
+2019-06-18 16:12:41.361 -ERROR 15324 [           main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-06-18 16:12:41.383 - INFO 15324 [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-18 16:12:42.008 - INFO 15324 [           main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-06-18 16:12:42.033 - INFO 15324 [           main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-06-18 16:12:42.035 - INFO 15324 [           main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2019-06-18 16:12:42.037 - INFO 15324 [           main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-06-18 16:12:42.038 - INFO 15324 [           main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-06-18 16:12:42.038 - INFO 15324 [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-06-18 16:12:42.038 - INFO 15324 [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2019-06-18 16:12:42.040 - INFO 15324 [           main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3a790e40
+2019-06-18 16:12:42.159 - WARN 15324 [           main] n.s.ehcache.config.ConfigurationFactory  : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/m2/repository/net/sf/ehcache/ehcache/2.10.5/ehcache-2.10.5.jar!/ehcache-failsafe.xml
+2019-06-18 16:12:42.397 - INFO 15324 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2019-06-18 16:12:42.408 - INFO 15324 [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'executer'
+2019-06-18 16:12:42.851 - INFO 15324 [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18 16:12:43.515 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bab3f1a: startup date [Tue Jun 18 16:12:33 CST 2019]; root of context hierarchy
+2019-06-18 16:12:43.651 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/data],produces=[application/json]}" onto public java.lang.String com.bootdo.common.controller.DataController.getData(java.lang.String,java.lang.String)
+2019-06-18 16:12:43.663 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.remove(java.lang.Long[])
+2019-06-18 16:12:43.663 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/remove/{id}],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.remove(java.lang.Long)
+2019-06-18 16:12:43.664 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/update]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.update(com.bootdo.common.domain.DictDO)
+2019-06-18 16:12:43.665 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/list],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.666 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.save(com.bootdo.common.domain.DictDO)
+2019-06-18 16:12:43.666 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/tree],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.tree()
+2019-06-18 16:12:43.667 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/type],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.listType()
+2019-06-18 16:12:43.667 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/edit/{id}],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-06-18 16:12:43.668 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/dict/add/{type}/{description}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.common.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2019-06-18 16:12:43.681 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/add],methods=[GET]}" onto java.lang.String com.bootdo.common.controller.FileController.add()
+2019-06-18 16:12:43.681 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.FileController.remove(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-06-18 16:12:43.682 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.FileController.remove(java.lang.String[])
+2019-06-18 16:12:43.684 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/update]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.FileController.update(com.bootdo.common.domain.FileDO)
+2019-06-18 16:12:43.684 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.common.controller.FileController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.685 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.FileController.save(com.bootdo.common.domain.FileDO)
+2019-06-18 16:12:43.685 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/info/{id}]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.FileController.info(java.lang.String)
+2019-06-18 16:12:43.687 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/edit],methods=[GET]}" onto java.lang.String com.bootdo.common.controller.FileController.edit(java.lang.String,org.springframework.ui.Model)
+2019-06-18 16:12:43.687 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile],methods=[GET]}" onto java.lang.String com.bootdo.common.controller.FileController.sysFile(org.springframework.ui.Model)
+2019-06-18 16:12:43.688 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/sysFile/upload],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.common.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-06-18 16:12:43.690 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/common/generator/code/{table}],methods=[GET]}" onto public void com.bootdo.common.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2019-06-18 16:12:43.691 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public com.bootdo.common.utils.R com.bootdo.common.exception.MainsiteErrorController.handleError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-18 16:12:43.696 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.remove(java.lang.Long)
+2019-06-18 16:12:43.696 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.remove(java.lang.Long[])
+2019-06-18 16:12:43.697 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.update(com.bootdo.system.domain.DeptDO)
+2019-06-18 16:12:43.697 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/list],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.list()
+2019-06-18 16:12:43.697 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.save(com.bootdo.system.domain.DeptDO)
+2019-06-18 16:12:43.698 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/tree],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.tree()
+2019-06-18 16:12:43.699 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/edit/{deptId}],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-06-18 16:12:43.700 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system/sysDept/getparent/{pId}],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.DeptController.getParentdept(java.lang.Long,org.springframework.ui.Model)
+2019-06-18 16:12:43.706 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.LoginController.index(org.springframework.ui.Model)
+2019-06-18 16:12:43.706 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.LoginController.logout()
+2019-06-18 16:12:43.707 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.LoginController.ajaxLogin(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.708 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/unauth]}" onto public java.lang.Object com.bootdo.system.controller.LoginController.unauth()
+2019-06-18 16:12:43.711 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/remove/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.remove(java.lang.Long)
+2019-06-18 16:12:43.711 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.update(com.bootdo.system.domain.MenuDO)
+2019-06-18 16:12:43.712 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/list]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.713 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.save(com.bootdo.system.domain.MenuDO)
+2019-06-18 16:12:43.713 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/tree/{roleId}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.tree(java.lang.Long)
+2019-06-18 16:12:43.713 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/tree],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.tree()
+2019-06-18 16:12:43.714 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/edit/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-06-18 16:12:43.716 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/menu/getPmenu/{pId}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.MenuController.getPmenu(org.springframework.ui.Model,java.lang.Long)
+2019-06-18 16:12:43.722 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/remove/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.remove(java.lang.Long)
+2019-06-18 16:12:43.723 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.update(com.bootdo.system.domain.RoleDO)
+2019-06-18 16:12:43.724 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/list],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.list()
+2019-06-18 16:12:43.724 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.save(com.bootdo.system.domain.RoleDO)
+2019-06-18 16:12:43.724 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.batchRemove(java.lang.Long[])
+2019-06-18 16:12:43.725 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/role/edit/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-06-18 16:12:43.727 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/online/list]}" onto public java.util.List<com.bootdo.system.domain.UserOnline> com.bootdo.system.controller.SessionController.list()
+2019-06-18 16:12:43.727 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/online],methods=[GET]}" onto public java.lang.String com.bootdo.system.controller.SessionController.online()
+2019-06-18 16:12:43.727 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/online/forceLogout/{sessionId}]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-06-18 16:12:43.728 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.bootdo.system.controller.SessionController.sessionList()
+2019-06-18 16:12:43.736 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/exit],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.737 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/remove/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.remove(java.lang.Long)
+2019-06-18 16:12:43.737 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.update(com.bootdo.system.domain.UserDO)
+2019-06-18 16:12:43.738 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/list]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.738 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.save(com.bootdo.system.domain.UserDO)
+2019-06-18 16:12:43.738 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.batchRemove(java.lang.Long[])
+2019-06-18 16:12:43.739 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/tree],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.tree()
+2019-06-18 16:12:43.739 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/getUser],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.UserController.getUser(java.lang.String,java.lang.String,java.lang.String)
+2019-06-18 16:12:43.748 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/edit/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-06-18 16:12:43.748 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/add],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.getRoles(org.springframework.ui.Model)
+2019-06-18 16:12:43.749 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/updatePeronal],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.updatePeronal(com.bootdo.system.domain.UserDO)
+2019-06-18 16:12:43.749 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/resetPwd/{id}],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+2019-06-18 16:12:43.752 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/resetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.resetPwd(com.bootdo.system.vo.UserVO)
+2019-06-18 16:12:43.753 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/adminResetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.adminResetPwd(com.bootdo.system.vo.UserVO)
+2019-06-18 16:12:43.755 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/personal],methods=[GET]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.personal(org.springframework.ui.Model)
+2019-06-18 16:12:43.756 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/uploadImg],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-06-18 16:12:43.756 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/getEmpData],methods=[POST]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.bootdo.system.controller.UserController.getEmpData()
+2019-06-18 16:12:43.757 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/getProjectUser/{projectId}],methods=[GET]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.UserController.getProjectUser(java.lang.String)
+2019-06-18 16:12:43.757 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/isRepeat],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.controller.UserController.isRepeat(java.lang.String,java.lang.String,java.lang.String)
+2019-06-18 16:12:43.758 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sys/user/saveUserForProject],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.controller.UserController.saveUserForProject(java.util.Map<java.lang.String, java.lang.Object>)
+2019-06-18 16:12:43.759 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartz/trigger]}" onto public java.lang.String com.bootdo.test.TestController.trigger(java.lang.String) throws java.lang.Exception
+2019-06-18 16:12:43.759 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartz/start]}" onto public java.lang.String com.bootdo.test.TestController.start() throws org.quartz.SchedulerException
+2019-06-18 16:12:43.761 - INFO 15324 [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartz/stop]}" onto public java.lang.String com.bootdo.test.TestController.stop() throws org.quartz.SchedulerException
+2019-06-18 16:12:44.051 - INFO 15324 [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18 16:12:44.051 - INFO 15324 [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18 16:12:44.091 - INFO 15324 [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in BDExceptionHandler
+2019-06-18 16:12:46.183 - INFO 15324 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-18 16:12:46.189 - INFO 15324 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-18 16:12:46.202 - INFO 15324 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-06-18 16:12:46.214 - INFO 15324 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483547
+2019-06-18 16:12:46.214 - INFO 15324 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-18 16:12:46.215 - INFO 15324 [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-06-18 16:12:46.216 - INFO 15324 [           main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-06-18 16:12:46.238 - INFO 15324 [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8083"]
+2019-06-18 16:12:46.262 - INFO 15324 [           main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-06-18 16:12:46.286 - INFO 15324 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/myapi'
+2019-06-18 16:12:46.291 - INFO 15324 [           main] com.bootdo.Monitor1Application           : Started Monitor1Application in 13.968 seconds (JVM running for 15.841)
+2019-06-18 16:15:39.858 - INFO 15324 [nio-8083-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/myapi]  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-18 16:15:39.859 - INFO 15324 [nio-8083-exec-8] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-18 16:15:39.919 - INFO 15324 [nio-8083-exec-8] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2019-06-18 16:15:39.959 - INFO 15324 [nio-8083-exec-8] a.s.s.m.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2019-06-18 16:15:40.033 -ERROR 15324 [nio-8083-exec-8] c.b.common.exception.BDExceptionHandler  : Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:197)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:316)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:62)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:350)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1188)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-06-18 16:22:12.335 - INFO 15324 [n(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-18 16:22:12.335 - INFO 15324 [n(26)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bab3f1a: startup date [Tue Jun 18 16:12:33 CST 2019]; root of context hierarchy
+2019-06-18 16:22:12.338 - INFO 15324 [n(26)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-18 16:22:12.339 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-06-18 16:22:12.346 - INFO 15324 [n(26)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483547
+2019-06-18 16:22:12.346 - INFO 15324 [n(26)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-18 16:22:12.388 - INFO 15324 [n(26)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-18 16:22:12.395 - INFO 15324 [n(26)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-06-18 16:22:12.398 - INFO 15324 [n(26)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'executer'
+2019-06-18 16:22:12.402 - INFO 15324 [n(26)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-06-18 16:22:12.402 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2019-06-18 16:22:12.402 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-06-18 16:22:12.413 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2019-06-18 16:22:12.417 - INFO 15324 [n(26)-127.0.0.1] a.s.s.m.AbstractValidatingSessionManager : Disabled session validation scheduler.
+2019-06-18 16:22:12.428 - INFO 15324 [n(26)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

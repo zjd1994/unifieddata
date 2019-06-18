@@ -1,0 +1,2 @@
+前台sysUser.vue用到了/myapi/common/dict/list，而后台list接口需要common:dict:dict权限，
+所以数据库中该权限的菜单不能删除，否则页面会显示未授权

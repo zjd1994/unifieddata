@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration scan="true" scanPeriod="60 seconds">
+
+    <!-- 文件输出格式 -->
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID:-} [%15.15t] %-40.40logger{39} : %m%n" />
+    <property name="charsetEncoding" value="UTF-8" />
+    <!--<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>-->
+
+    <!--控制台日志-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${pattern}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- <appender name="file" class="ch.qos.logback.core.FileAppender">
+        <file>./logback/logfile.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>${pattern}</pattern>
+            <charset>${charsetEncoding}</charset>
+        </encoder>
+    </appender> -->
+
+    <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    	<!--当前活动日志文件名 -->
+        <File>./logback/log.log</File>
+        <!-- 每天产生一个文件 TimeBasedRollingPolicy继承了RollingPolicy和TriggeringPolicy接口-->
+        <!-- TimeBaseRollingPolicy 支持自动压缩日志文件，这个功能通过设置fileNamePattern的值以 .gz 或者 .zip 结尾开启。  -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 归档文件名称（文件策略）-->
+            <!-- %d{yyyy-MM-dd_HH}每小时一更-->
+            <!-- <FileNamePattern>logback.%d{yyyy-MM-dd_HH}.log</FileNamePattern> -->
+            <!-- 每天午夜更新-->
+            <FileNamePattern>./logback/daily/logback.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!-- keep 30 days' worth of history -->
+            <!--最大保存天数-->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>${pattern}</Pattern>
+        </encoder>
+    </appender>
+
+    <!-- <logger name="org.springframework.web" level="debug"/> -->
+    <!-- show parameters for hibernate sql 专为 Hibernate 定制 -->
+    <!-- <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE" />
+    <logger name="org.hibernate.type.descriptor.sql.BasicExtractor" level="DEBUG" />
+    <logger name="org.hibernate.SQL" level="DEBUG" />
+    <logger name="org.hibernate.engine.QueryParameters" level="DEBUG" />
+    <logger name="org.hibernate.engine.query.HQLQueryPlan" level="DEBUG" /> -->
+
+    <!--myibatis log configure-->
+    <!-- <logger name="com.apache.ibatis" level="TRACE"/>
+    <logger name="java.sql.Connection" level="DEBUG"/>
+    <logger name="java.sql.Statement" level="DEBUG"/>
+    <logger name="java.sql.PreparedStatement" level="DEBUG"/> -->
+
+    <root level="debug">
+        <appender-ref ref="console"/>
+        <appender-ref ref="dailyRollingFileAppender"/>
+        <!-- <appender-ref ref="file"/> -->
+    </root>
+    
+</configuration>
