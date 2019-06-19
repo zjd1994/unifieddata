@@ -29,7 +29,7 @@
 2019-06-18 16:12:38.509 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.bootdo.system.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-06-18 16:12:38.583 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-06-18 16:12:38.608 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'redisManager' of type [com.bootdo.common.redis.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-18 16:12:38.609 -DEBUG 15324 [           main] c.b.c.redis.shiro.RedisCacheManager      : 获取名称为: com.bootdo.system.shiro.UserRealm.authorizationCache 的RedisCache实例
+2019-06-18 16:12:38.609 -DEBUG 15324 [           main] c.b.c.redis.shiro.RedisCacheManager      : 禄帽脠隆脙没鲁脝脦陋: com.bootdo.system.shiro.UserRealm.authorizationCache 碌脛RedisCache脢碌脌媒
 2019-06-18 16:12:38.635 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionIdCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-06-18 16:12:38.643 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'redisSessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-06-18 16:12:38.646 - INFO 15324 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -245,4 +245,4 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2019-06-18 16:22:12.402 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
 2019-06-18 16:22:12.413 - INFO 15324 [n(26)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
 2019-06-18 16:22:12.417 - INFO 15324 [n(26)-127.0.0.1] a.s.s.m.AbstractValidatingSessionManager : Disabled session validation scheduler.
-2019-06-18 16:22:12.428 - INFO 15324 [n(26)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-18 16:22:12.428 - INFO 15324 [n(26)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closedxxxxxxxxxxxxxxxxxxxxxxxx
